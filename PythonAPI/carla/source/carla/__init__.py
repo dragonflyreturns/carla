@@ -6,3 +6,5 @@
 
 # pylint: disable=W0401
 from .libcarla import *
+
+from version import __version__

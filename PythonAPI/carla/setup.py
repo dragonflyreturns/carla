@@ -12,6 +12,8 @@ import fnmatch
 import os
 import sys
 
+from source.carla.version import __version__
+
 def is_rss_variant_enabled():
     if 'BUILD_RSS_VARIANT' in os.environ and os.environ['BUILD_RSS_VARIANT'] == 'true':
         return True
@@ -165,7 +167,7 @@ with open("README.md") as f:
 
 setup(
     name='carla',
-    version='0.9.15',
+    version=__version__,
     package_dir={'': 'source'},
     packages=['carla'],
     ext_modules=get_libcarla_extensions(),
