@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{1CA71ED9-494A-244B-F88F-C38D05EAF22D}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -93,10 +93,6 @@
 			"Enabled": false
 		},
 		{
-			"Name": "SteamVR",
-			"Enabled": false
-		},
-		{
 			"Name": "RenderDocPlugin",
 			"Enabled": true
 		},
@@ -123,6 +119,14 @@
 		},
 		{
 			"Name": "HairStrands",
+			"Enabled": true
+		},
+		{
+			"Name": "StreetMap",
+			"Enabled": true
+		},
+		{
+			"Name": "LogitechWheelPlugin",
 			"Enabled": true
 		}
 	]
