@@ -1334,7 +1334,7 @@ def main():
         '--res',
         metavar='WIDTHxHEIGHT',
         default='1280x720',
-        help='window resolution (default: 1280x720)')
+        help='window resolution (default: 1280x720, HD: 1920x1080, 4K: 3840x2160, 4K x 3: 11520x2160, HD x 3: 5760x1080)')
     argparser.add_argument(
         '--filter',
         metavar='PATTERN',
